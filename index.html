@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CoverVid</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/styles/normalize.css" />
+	<link rel="stylesheet" href="assets/styles/styles.css" />
+</head>
+
+<body>
+
+	<!-- Video Markup -->
+	<section class="masthead">
+		<video class="masthead-video" autoplay loop muted>
+			<source src="assets/videos/dreamscapes.mp4" type="video/mp4">
+			<source src="assets/videos/dreamscapes.webm" type="video/webm">
+		</video>
+		<div class="masthead-overlay"></div>
+		<h1><img src="assets/stranger.svg" alt=""><span>A new thing is coming</span></h1>
+	</section>
+
+	<!-- Load Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="covervid.min.js"></script>
+	<script src="assets/scripts/scripts.js"></script>
+
+	<!-- Call CoverVid -->
+	<script type="text/javascript">
+		// If using jQuery
+			// $('.masthead-video').coverVid(1920, 1080);
+		// If not using jQuery (Native Javascript)
+			coverVid(document.querySelector('.masthead-video'), 1920, 1080);
+	</script>
+
+</body>
+
+</html>
