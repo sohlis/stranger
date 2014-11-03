@@ -43,7 +43,7 @@ and (max-width : 450px) {
     display: none;
 }
 img {
-    width: 50%;
+    width:30%;
     margin-left: -42.9%;
 }
 body {
