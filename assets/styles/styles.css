@@ -43,12 +43,19 @@ and (max-width : 450px) {
     display: none;
 }
 img {
-    width:30%;
-    margin-left: -42.9%;
+    width: 79%;
+    margin-top: 199px;
+}
+
+.masthead {
+    width: 20%;
+    min-width: 230px;
 }
 body {
     background: url("bg.jpg");
     background-size: cover;
+    width: 100%;
+    height: auto;
 
 }
 }
